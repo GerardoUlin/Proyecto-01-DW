@@ -19,45 +19,43 @@ a{
 }
 
     .header{
-        background: url(../imagenes/pisaje.jpg);
         background-position: center;
-        background-attachment: contain;
+        background: linear-gradient(to bottom right, #004aad, black);
         background-size: cover;
         display: flex;
         flex-flow: column nowrap;
+        padding-top: 1rem;
     }
         .menu{
-            background: rgb(0, 0, 0, .1);
             display: flex;
             flex-flow: row nowrap;
             height: 60px;
             align-items: center;
-            border-bottom: 1px solid rgba(255,255,255,.5 );
 
         }
             .logo{
                 flex: 1 1 auto;
             }
-                .logo a{
-                    color: #1fe4f2; 
-                    font-size: 30px;
-                }
-                .logo a:hover{
-                    color: #1807d2;
-                }
+
+                .logo img{
+                    height: 60px;
+                    width: auto;
+                }    
+
             .nav{
                 flex: 5 1 auto;
                 
             }
                 .nav a{
-                    color: #1fe4f2;
-                    font-size: 11px;
+                    color: #fff;
+                    font-size: 1rem;
                     text-transform: uppercase;
                     padding: 0 10px;
                     letter-spacing: 2px;
                 }
                 .nav a:hover{
-                    color: #1807d2;
+                    color: 	#848482;
+                    background: rgb(0, 0, 0, .1);
                 }
             .social{
                 flex: 1 1 auto;
@@ -65,11 +63,12 @@ a{
             }
              .social a{
                 font-size: 18px;
-                color: #1fe4f2;
+                color: #fff;
                 padding: 0 5px;
                 }
                 .social a:hover{
-                    color: #1807d2;
+                    color: 	#848482;
+                    background: rgb(0, 0, 0, .1);
                 }
             .texto-principal{
                /* background: #f07b3f;*/
