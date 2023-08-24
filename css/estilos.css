@@ -20,7 +20,7 @@ a{
 
     .header{
         background-position: center;
-        background: linear-gradient(to bottom right, #004aad, black);
+        background: linear-gradient(70deg, #004aad, black);
         background-size: cover;
         display: flex;
         flex-flow: column nowrap;
@@ -40,6 +40,7 @@ a{
                 .logo img{
                     height: 60px;
                     width: auto;
+                    border-radius: 30px;
                 }    
 
             .nav{
@@ -85,7 +86,7 @@ a{
                     line-height: 1.6;
                 }
     .section{
-        background: #f7f7f7;
+        background: linear-gradient(70deg, #004aad, black);
         display: flex;
     }
         .articulo{
