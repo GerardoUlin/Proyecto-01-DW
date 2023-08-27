@@ -7,9 +7,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-a{
-    text-decoration: none;
-}
+
 .padre{
     display: flex;
     flex-flow: column nowrap;
@@ -58,6 +56,7 @@ a{
                     color: 	#848482;
                     background: rgb(0, 0, 0, .1);
                 }
+
             .social{
                 flex: 1 1 auto;
                 display: flex;
@@ -71,22 +70,34 @@ a{
                     color: 	#848482;
                     background: rgb(0, 0, 0, .1);
                 }
+
+            .slogan{
+                padding-top: 2rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+                .slogan img{
+                    height: 25rem;
+                    border-radius: 12rem;
+                }
+
             .texto-principal{
-               /* background: #f07b3f;*/
-               height: 580px;
+               height: 15rem;
                display: flex;
                align-items: center;
             }
-                h1{
+            .texto-principal p{
                     font-family: 'lora', serif;
                     font-size: 21px;
                     color: #ecf1f1;
                     font-weight: 300;
-                    text-align: center;
+                    text-align: justify;
                     line-height: 1.6;
                 }
     .section{
-        background: linear-gradient(70deg, #004aad, black);
+        background: linear-gradient(93deg, #004aad, black);
         display: flex;
     }
         .articulo{
@@ -95,14 +106,22 @@ a{
             display: flex;
             flex-flow: row wrap;
         }
+
+        .articulo article:nth-child(2n){
+            margin: 10px;
+        }
+
+        .articulo article:nth-child(2n+1){
+            margin: 10px 0px 10px 10px;
+        }
+
             .article{
                 flex: 1 1 40%;
-                color: #444;
-                font-size: 13px;
+                color: #000;
+                font-size: 17px;
                 letter-spacing: 1px;
-                margin: 10px 10px 0 0px;
-                flex: 1 1 45%;
                 background: #ececec;
+                font-weight: bold;
             }
             .article img{
                 width: 100%;
@@ -145,13 +164,20 @@ a{
                background: #ffea85; 
             }
     .footer{
-        background: #000;
+        height: 6rem;
+        background: linear-gradient(70deg, #004aad, black);
         display: flex;
-        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
         .pie{
-            background: #e6af2e;
-            width: 300px;
+            color: #fff;
+            flex: 1 1 100%;
+            font-size: 21px;
+        }
+
+        .pie a{
+            color: #fff;
         }
 
 @media all and (max-width: 800px){
