@@ -1,0 +1,91 @@
+.contenedor{
+    height: 90vh;
+}
+
+.vision-mision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-flow: row nowrap;
+    text-align: center;
+}
+
+.mision, .vision{
+    height: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-mision, .contenedor-vision{
+    height: 55%;
+    background: #fff;
+    border-radius: 2rem;
+    margin: 3rem;
+}
+
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(93deg, #004aad, black);
+}
+
+.header{
+    background-position: center;
+    background: linear-gradient(70deg, #004aad, black);
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 1rem;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 60px;
+    align-items: center;
+
+}
+
+.logo{
+    flex: 1 1 auto;
+}
+
+.logo img{
+    height: 60px;
+    width: auto;
+    border-radius: 30px;
+}    
+
+.nav{
+    flex: 5 1 auto;
+    
+}
+
+.nav a{
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+.nav a:hover{
+    color: 	#848482;
+    background: rgb(0, 0, 0, .1);
+}
+
+.social{
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.social a{
+font-size: 18px;
+color: #fff;
+padding: 0 5px;
+}
+.social a:hover{
+    color: 	#848482;
+    background: rgb(0, 0, 0, .1);
+}
