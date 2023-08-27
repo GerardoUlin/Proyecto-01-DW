@@ -90,10 +90,10 @@ body{
             }
             .texto-principal p{
                     font-family: 'lora', serif;
-                    font-size: 21px;
+                    font-size: 25px;
+                    text-align: center;
                     color: #ecf1f1;
                     font-weight: 300;
-                    text-align: justify;
                     line-height: 1.6;
                 }
     .section{
@@ -137,31 +137,41 @@ body{
             .article a:hover{
                 background: #546cc3;
             }
-            h3{
-                color: #fff;
-                font-size: 13px;
-                padding: 10px 0;
-                margin-top: -80px;
-            }
+
+        .black-box {
+            background-color: black;
+            padding: 15px;
+            display: inline-block; /* Añadido para ajustar al contenido */
+        }
+
+        .black-box h3 {
+            color: #ffffff;
+            font-size: 15px;
+            padding: 10px 0;
+            margin: 0; /* Quitado el margin-top */
+        }
+
+
             h2{
                 font-size: 25px;
                 text-transform: uppercase;
                 padding: 0px 0 10px 0;
-                color: #fff;
+                color: #0a0a0a;
             }
             .navegacion{
                 background: #70a3c4;
                 flex: 1 1 100%;
             }
         .aside{
-            background: #f73f52;
+            background: rgba(247, 63, 82, 0);
             flex: 1 1 auto;
         }
         .aside img{
             width: 100%;
         }
             .publicidad{
-               background: #ffea85; 
+                color: #fff;
+               background: rgba(255, 234, 133, 0.05);
             }
     .footer{
         height: 6rem;
