@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(93deg, #004aad, black);
+}
+
+.conocenos{
+    display: flex;
+    align-items: center;
+}
+
+.quienes-somos{
+    display: flex;
+}
+
+.conocenos-historia{
+    flex: 1 1 auto;
+    margin: 4rem;
+}
+
+.conocenos-slogan{
+    flex: 1 1 auto;
+}
+
+.conocenos-slogan img{
+    border-radius: 18rem;
+}
+
+.conocenos-historia{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.colaborador{
+    padding: 1rem 4rem;
+}
+
+.descripcion{
+    background: #fff;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.header{
+    background-position: center;
+    background: linear-gradient(70deg, #004aad, black);
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 1rem;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 60px;
+    align-items: center;
+
+}
+
+.logo{
+    flex: 1 1 auto;
+}
+
+.logo img{
+    height: 60px;
+    width: auto;
+    border-radius: 30px;
+}    
+
+.nav{
+    flex: 5 1 auto;
+    
+}
+
+.nav a{
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+.nav a:hover{
+    color: 		#848482;
+    background: rgb(0, 0, 0, .1);
+}
+
+.social{
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.social a{
+font-size: 18px;
+color: #fff;
+padding: 0 5px;
+}
+.social a:hover{
+    color: 	#848482;
+    background: rgb(0, 0, 0, .1);
+}
+
+.footer{
+    height: 6rem;
+    background: linear-gradient(70deg, #004aad, black);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.pie{
+    color: #fff;
+    flex: 1 1 100%;
+    font-size: 21px;
+}
+
+.pie a{
+    color: #fff;
+}
