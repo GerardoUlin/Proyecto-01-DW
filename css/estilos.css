@@ -126,7 +126,7 @@ body{
             .article img{
                 width: 100%;
             }
-            .article a{
+            .article button{
                 color: #fff;
                 font-size: 13px;
                 padding: 10px 10px;
@@ -134,7 +134,7 @@ body{
                 margin: 10px 0;
                 display: inline-block;
             }
-            .article a:hover{
+            .article button:hover{
                 background: #546cc3;
             }
 
